@@ -1,0 +1,38 @@
+<div class="project-content">
+    <div class="content-header d-flex flex-row justify-content-between">
+        <h1>
+            Teams Chat Exporter
+        </h1>
+        <div class="project-tech-details">
+            Languages/Technologies: 
+            <div class="badge bg-success d-inline-block ms-2">Python</div>
+            <div class="badge bg-secondary d-inline-block ms-2">Flask</div>
+            <div class="badge bg-secondary d-inline-block ms-2">Bootstrap 5</div>
+            <div class="badge bg-secondary d-inline-block ms-2">Microsoft Graph API</div>
+        </div>
+    </div>
+    <hr>
+    <div id="project-content">
+        <h3>
+            Problem Statement
+        </h3>
+        <p>
+            Internal policies dictated that employees must be able to export their chat logs from Microsoft Teams for compliance and record-keeping purposes. However, Microsoft Teams did not provide a straightforward way for end users to export their chat data in a user-friendly format.
+        </p>
+
+        <h3>
+            Project Description
+        </h3>
+        <p>
+            This Teams Chat Exporter is a web application developed using Python and Flask that allows end users to easily export their chat logs from Microsoft Teams. The application authenticates via an Entra application and uses the Microsoft Graph API to retrieve their chat data. Users simply copy the conversation link from Teams, paste it into the web app, and export them as PDFs.
+        </p>
+
+        <h3>
+            Screenshots
+        </h3>
+        <div>
+            <img src="{{ url_for('static', filename='images/TeamChatExporter/CardImg.png') }}" class="img-fluid mb-3 rounded" alt="Screenshot 1">
+        </div>
+    </div>
+
+</div>
